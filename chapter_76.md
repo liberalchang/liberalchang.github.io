@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第76章"
+chapter_number: 76
+---
+
 # 第七十六章：人之生也柔弱，其死也坚强
 
 ## 正文

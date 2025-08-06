@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第47章"
+chapter_number: 47
+---
+
 # 第四十七章：不出户，知天下
 
 ## 正文

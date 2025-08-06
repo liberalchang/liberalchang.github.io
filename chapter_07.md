@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第7章"
+chapter_number: 7
+---
+
 # 第七章：天长地久
 
 ## 正文

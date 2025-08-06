@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第26章"
+chapter_number: 26
+---
+
 # 第二十六章：重为轻根，静为躁君
 
 ## 正文

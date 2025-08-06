@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第20章"
+chapter_number: 20
+---
+
 # 第二十章：唯之与阿，相去几何
 
 ## 正文

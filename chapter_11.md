@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第11章"
+chapter_number: 11
+---
+
 # 第十一章：三十辐，共一毂
 
 ## 正文

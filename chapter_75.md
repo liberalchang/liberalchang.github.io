@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第75章"
+chapter_number: 75
+---
+
 # 第七十五章：民之饥，以其上食税之多
 
 ## 正文

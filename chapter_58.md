@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第58章"
+chapter_number: 58
+---
+
 # 第五十八章：其政闷闷，其民淳淳
 
 ## 正文

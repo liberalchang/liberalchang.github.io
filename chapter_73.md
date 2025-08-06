@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第73章"
+chapter_number: 73
+---
+
 # 第七十三章：勇于敢则杀，勇于不敢则活
 
 ## 正文

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第18章"
+chapter_number: 18
+---
+
 # 第十八章：大道废，有仁义
 
 ## 正文

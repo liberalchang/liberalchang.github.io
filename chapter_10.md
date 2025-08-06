@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第10章"
+chapter_number: 10
+---
+
 # 第十章：载营魄抱一，能无离乎
 
 ## 正文

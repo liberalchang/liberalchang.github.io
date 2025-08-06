@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第70章"
+chapter_number: 70
+---
+
 # 第七十章：吾言甚易知，甚易行
 
 ## 正文

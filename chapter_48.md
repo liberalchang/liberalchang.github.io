@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第48章"
+chapter_number: 48
+---
+
 # 第四十八章：为学日益，为道日损
 
 ## 正文

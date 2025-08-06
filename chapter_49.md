@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第49章"
+chapter_number: 49
+---
+
 # 第四十九章：圣人常无心，以百姓心为心
 
 ## 正文

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第8章"
+chapter_number: 8
+---
+
 # 第八章：上善若水
 
 ## 正文

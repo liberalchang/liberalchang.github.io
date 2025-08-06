@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第74章"
+chapter_number: 74
+---
+
 # 第七十四章：民不畏死，奈何以死惧之
 
 ## 正文

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第22章"
+chapter_number: 22
+---
+
 # 第二十二章：曲则全，枉则直
 
 ## 正文

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第39章"
+chapter_number: 39
+---
+
 # 第三十九章：昔之得一者
 
 ## 正文

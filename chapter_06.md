@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第6章"
+chapter_number: 6
+---
+
 # 第六章：谷神不死，是谓玄牝
 
 ## 正文

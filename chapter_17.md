@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第17章"
+chapter_number: 17
+---
+
 # 第十七章：太上，不知有之
 
 ## 正文

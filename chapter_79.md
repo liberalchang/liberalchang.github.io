@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第79章"
+chapter_number: 79
+---
+
 # 第七十九章：和大怨，必有余怨
 
 ## 正文

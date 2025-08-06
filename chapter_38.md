@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第38章"
+chapter_number: 38
+---
+
 # 第三十八章：上德不德，是以有德
 
 ## 正文

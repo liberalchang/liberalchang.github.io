@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第3章"
+chapter_number: 3
+---
+
 # 第三章：不尚贤，使民不争
 
 ## 正文

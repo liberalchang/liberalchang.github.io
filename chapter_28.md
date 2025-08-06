@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第28章"
+chapter_number: 28
+---
+
 # 第二十八章：知其雄，守其雌
 
 ## 正文

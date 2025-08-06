@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第77章"
+chapter_number: 77
+---
+
 # 第七十七章：天之道，其犹张弓与
 
 ## 正文

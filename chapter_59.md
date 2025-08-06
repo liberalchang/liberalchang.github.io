@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第59章"
+chapter_number: 59
+---
+
 # 第五十九章：治人事天，莫若啬
 
 ## 正文

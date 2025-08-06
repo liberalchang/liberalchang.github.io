@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第67章"
+chapter_number: 67
+---
+
 # 第六十七章：天下皆谓我道大，似不肖
 
 ## 正文

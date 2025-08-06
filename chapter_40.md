@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第40章"
+chapter_number: 40
+---
+
 # 第四十章：反者道之动，弱者道之用
 
 ## 正文

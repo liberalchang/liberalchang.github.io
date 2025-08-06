@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第51章"
+chapter_number: 51
+---
+
 # 第五十一章：道生之，德畜之
 
 ## 正文

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第25章"
+chapter_number: 25
+---
+
 # 第二十五章：有物混成，先天地生
 
 ## 正文

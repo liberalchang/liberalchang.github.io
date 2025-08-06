@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第21章"
+chapter_number: 21
+---
+
 # 第二十一章：孔德之容，惟道是从
 
 ## 正文

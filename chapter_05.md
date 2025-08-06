@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第5章"
+chapter_number: 5
+---
+
 # 第五章：天地不仁，以万物为刍狗
 
 ## 正文

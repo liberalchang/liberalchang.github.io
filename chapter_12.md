@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第12章"
+chapter_number: 12
+---
+
 # 第十二章：五色令人目盲
 
 ## 正文

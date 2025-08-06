@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第71章"
+chapter_number: 71
+---
+
 # 第七十一章：知不知，尚矣
 
 ## 正文

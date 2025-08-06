@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第78章"
+chapter_number: 78
+---
+
 # 第七十八章：天下莫柔弱于水
 
 ## 正文

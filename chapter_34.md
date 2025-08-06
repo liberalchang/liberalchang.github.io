@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第34章"
+chapter_number: 34
+---
+
 # 第三十四章：大道泛兮，其可左右
 
 ## 正文

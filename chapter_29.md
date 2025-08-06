@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第29章"
+chapter_number: 29
+---
+
 # 第二十九章：将欲取天下而为之，吾见其不得已
 
 ## 正文

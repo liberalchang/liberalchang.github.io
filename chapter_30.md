@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第30章"
+chapter_number: 30
+---
+
 # 第三十章：以道佐人主者，不以兵强天下
 
 ## 正文

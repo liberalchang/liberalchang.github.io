@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第50章"
+chapter_number: 50
+---
+
 # 第五十章：出生入死
 
 ## 正文

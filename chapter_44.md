@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第44章"
+chapter_number: 44
+---
+
 # 第四十四章：名与身孰亲
 
 ## 正文

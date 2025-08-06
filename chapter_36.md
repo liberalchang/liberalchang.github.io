@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第36章"
+chapter_number: 36
+---
+
 # 第三十六章：将欲歙之，必故张之
 
 ## 正文

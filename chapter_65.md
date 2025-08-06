@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第65章"
+chapter_number: 65
+---
+
 # 第六十五章：古之善为道者，非以明民，将以愚之
 
 ## 正文

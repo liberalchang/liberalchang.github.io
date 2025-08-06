@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第68章"
+chapter_number: 68
+---
+
 # 第六十八章：善为士者，不武
 
 ## 正文

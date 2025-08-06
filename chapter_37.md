@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第37章"
+chapter_number: 37
+---
+
 # 第三十七章：道常无为而无不为
 
 ## 正文

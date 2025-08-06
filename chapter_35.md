@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第35章"
+chapter_number: 35
+---
+
 # 第三十五章：执大象，天下往
 
 ## 正文

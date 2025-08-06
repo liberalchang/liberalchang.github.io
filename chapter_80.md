@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第80章"
+chapter_number: 80
+---
+
 # 第八十章：小国寡民
 
 ## 正文

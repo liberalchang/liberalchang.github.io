@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第31章"
+chapter_number: 31
+---
+
 # 第三十一章：夫兵者，不祥之器
 
 ## 正文

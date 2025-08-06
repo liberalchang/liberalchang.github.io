@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第66章"
+chapter_number: 66
+---
+
 # 第六十六章：江海之所以能为百谷王者
 
 ## 正文

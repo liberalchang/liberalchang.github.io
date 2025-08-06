@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第72章"
+chapter_number: 72
+---
+
 # 第七十二章：民不畏威，则大威至
 
 ## 正文

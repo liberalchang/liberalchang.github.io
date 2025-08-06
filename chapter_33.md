@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第33章"
+chapter_number: 33
+---
+
 # 第三十三章：知人者智，自知者明
 
 ## 正文

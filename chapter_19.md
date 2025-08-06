@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第19章"
+chapter_number: 19
+---
+
 # 第十九章：绝圣弃智，民利百倍
 
 ## 正文

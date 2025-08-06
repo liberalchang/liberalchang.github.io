@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第52章"
+chapter_number: 52
+---
+
 # 第五十二章：天下有始，以为天下母
 
 ## 正文

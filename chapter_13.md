@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第13章"
+chapter_number: 13
+---
+
 # 第十三章：宠辱若惊，贵大患若身
 
 ## 正文

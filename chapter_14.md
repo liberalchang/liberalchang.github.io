@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第14章"
+chapter_number: 14
+---
+
 # 第十四章：视之不见，名曰夷
 
 ## 正文

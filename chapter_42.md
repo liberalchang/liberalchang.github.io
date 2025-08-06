@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第42章"
+chapter_number: 42
+---
+
 # 第四十二章：道生一，一生二，二生三，三生万物
 
 ## 正文

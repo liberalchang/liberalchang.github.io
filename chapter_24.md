@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第24章"
+chapter_number: 24
+---
+
 # 第二十四章：企者不立，跨者不行
 
 ## 正文

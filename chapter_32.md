@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第32章"
+chapter_number: 32
+---
+
 # 第三十二章：道常无名朴
 
 ## 正文

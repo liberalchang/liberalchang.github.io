@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第27章"
+chapter_number: 27
+---
+
 # 第二十七章：善行无辙迹，善言无瑕谪
 
 ## 正文

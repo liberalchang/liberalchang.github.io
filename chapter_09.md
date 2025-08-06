@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第9章"
+chapter_number: 9
+---
+
 # 第九章：持而盈之，不如其已
 
 ## 正文

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第60章"
+chapter_number: 60
+---
+
 # 第六十章：治大国，若烹小鲜
 
 ## 正文

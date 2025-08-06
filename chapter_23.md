@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第23章"
+chapter_number: 23
+---
+
 # 第二十三章：希言自然
 
 ## 正文

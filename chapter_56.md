@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第56章"
+chapter_number: 56
+---
+
 # 第五十六章：知者不言，言者不知
 
 ## 正文

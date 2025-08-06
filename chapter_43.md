@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第43章"
+chapter_number: 43
+---
+
 # 第四十三章：天下之至柔，驰骋天下之至坚
 
 ## 正文

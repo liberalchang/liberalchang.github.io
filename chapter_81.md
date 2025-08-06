@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第81章"
+chapter_number: 81
+---
+
 # 第八十一章：信言不美，美言不信
 
 ## 正文

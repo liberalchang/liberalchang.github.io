@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第46章"
+chapter_number: 46
+---
+
 # 第四十六章：天下有道，却走马以粪
 
 ## 正文

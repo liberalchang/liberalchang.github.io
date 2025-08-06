@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第69章"
+chapter_number: 69
+---
+
 # 第六十九章：用兵有言：吾不敢为主，而为客
 
 ## 正文

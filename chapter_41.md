@@ -1,3 +1,9 @@
+---
+layout: page
+title: "第41章"
+chapter_number: 41
+---
+
 # 第四十一章：上士闻道，勤而行之
 
 ## 正文
