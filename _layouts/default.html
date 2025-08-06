@@ -13,7 +13,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
@@ -252,10 +252,10 @@
     <header class="site-header">
         <div class="container">
             <div class="header-content">
-                <a href="/" class="site-title">{{ site.title }}</a>
+                <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
                 <nav class="site-nav">
-                    <a href="/" class="nav-link">首页</a>
-                    <a href="/about.html" class="nav-link">关于</a>
+                    <a href="{{ site.baseurl }}/" class="nav-link">首页</a>
+                    <a href="{{ site.baseurl }}/about.html" class="nav-link">关于</a>
                     <a href="https://github.com/{{ site.github_username }}" class="nav-link" target="_blank">GitHub</a>
                 </nav>
             </div>
@@ -277,7 +277,7 @@
                 
                 <h3>快速导航</h3>
                 <ul class="toc">
-                    <li><a href="/">返回首页</a></li>
+                    <li><a href="{{ site.baseurl }}/">返回首页</a></li>
                     <li><a href="#top">回到顶部</a></li>
                 </ul>
             </aside>

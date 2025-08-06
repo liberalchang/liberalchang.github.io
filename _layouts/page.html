@@ -189,7 +189,7 @@ layout: default
         <div>
             {% if prev_num > 0 %}
                 {% assign prev_chapter = prev_num | prepend: '00' | slice: -2, 2 %}
-                <a href="/chapter_{{ prev_chapter }}.html" class="nav-button">
+                <a href="{{ site.baseurl }}/chapter_{{ prev_chapter }}.html" class="nav-button">
                     ← 第{{ prev_num }}章
                 </a>
             {% else %}
@@ -200,7 +200,7 @@ layout: default
         </div>
         
         <div>
-            <a href="/" class="nav-button home-button">
+            <a href="{{ site.baseurl }}/" class="nav-button home-button">
                 📖 返回目录
             </a>
         </div>
@@ -208,7 +208,7 @@ layout: default
         <div>
             {% if next_num <= 81 %}
                 {% assign next_chapter = next_num | prepend: '00' | slice: -2, 2 %}
-                <a href="/chapter_{{ next_chapter }}.html" class="nav-button">
+                <a href="{{ site.baseurl }}/chapter_{{ next_chapter }}.html" class="nav-button">
                     第{{ next_num }}章 →
                 </a>
             {% else %}
@@ -224,15 +224,16 @@ layout: default
 // 添加键盘导航支持
 document.addEventListener('keydown', function(e) {
     const currentNum = {{ page.chapter_number | default: 0 }};
+    const baseUrl = '{{ site.baseurl }}';
     
     if (e.key === 'ArrowLeft' && currentNum > 1) {
         const prevChapter = String(currentNum - 1).padStart(2, '0');
-        window.location.href = `/chapter_${prevChapter}.html`;
+        window.location.href = `${baseUrl}/chapter_${prevChapter}.html`;
     } else if (e.key === 'ArrowRight' && currentNum < 81) {
         const nextChapter = String(currentNum + 1).padStart(2, '0');
-        window.location.href = `/chapter_${nextChapter}.html`;
+        window.location.href = `${baseUrl}/chapter_${nextChapter}.html`;
     } else if (e.key === 'Escape') {
-        window.location.href = '/';
+        window.location.href = `${baseUrl}/`;
     }
 });
 
