@@ -1,0 +1,2224 @@
+# Jekyll 构建文件
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby 相关
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+Gemfile.lock
+
+#临时测试文件
+chapter1.html
+index.html
+
+# Bundler
+/.bundle/
+vendor/
+.bundle
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows 系统文件
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# 编辑器和IDE文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node.js (如果使用)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 本地配置文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 备份文件
+*.bak
+*.backup
+*.orig
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 图片缓存和临时文件
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 运行时数据
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 覆盖率目录
+coverage/
+.nyc_output/
+
+# 依赖目录
+jspm_packages/
+
+# 可选的npm缓存目录
+.npm
+
+# 可选的eslint缓存
+.eslintcache
+
+# Microbundle缓存
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# 可选的REPL历史
+.node_repl_history
+
+# 输出的二进制文件
+*.tgz
+
+# Yarn完整性文件
+.yarn-integrity
+
+# parcel-bundler缓存
+.cache
+.parcel-cache
+
+# next.js构建输出
+.next
+
+# nuxt.js构建输出
+.nuxt
+
+# vuepress构建输出
+.vuepress/dist
+
+# Serverless目录
+.serverless
+
+# FuseBox缓存
+.fusebox/
+
+# DynamoDB本地文件
+.dynamodb/
+
+# 本地开发文件
+step1.md
+tmp.txt
+TaoTeChing.md
+prompt.md
+
+# 测试文件
+test/
+tests/
+__tests__/
+
+# 文档草稿
+drafts/
+_drafts/
+
+# 本地服务器文件
+.serve/
+
+# 静态文件生成器缓存
+.cache/
+
+# 本地数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 本地配置
+config.local.yml
+_config.local.yml
+
+# 开发工具
+.tool-versions
+
+# 版本控制
+.git/
+.gitattributes
+
+# 临时HTML文件（保留Jekyll生成的）
+# 注意：我们保留 index.html 和 chapter_*.html 因为它们是静态版本
+# *.html
+
+# 保留重要的项目文件
+!index.html
+!chapter_*.html
+!_layouts/*.html
+!_includes/*.html
+
+# 忽略本地开发用的Python服务器文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略Ruby版本文件
+.ruby-version
+.rvmrc
+
+# 忽略本地Jekyll服务
+.jekyll-livereload
+
+# 忽略Sass缓存
+.sass-cache/
+
+# 忽略本地构建脚本
+build.sh
+deploy.sh
+
+# 忽略本地笔记和草稿
+notes/
+README.local.md
+
+# 忽略本地图片处理文件
+image-processing/
+optimized-images/
+
+# 忽略本地备份
+backup/
+*.backup
+
+# 忽略本地统计文件
+stats.json
+analytics.json
+
+# 忽略本地SEO文件
+sitemap.local.xml
+robots.local.txt
+
+# 忽略本地评论系统配置
+comments.local.yml
+disqus.local.yml
+
+# 忽略本地主题文件
+themes/
+custom-themes/
+
+# 忽略本地插件
+plugins/
+custom-plugins/
+
+# 忽略本地脚本
+scripts/
+automation/
+
+# 忽略本地字体文件（如果很大）
+fonts/*.woff2
+fonts/*.ttf
+fonts/*.otf
+
+# 忽略本地图标文件
+icons/
+favicons/
+
+# 忽略本地多媒体文件
+audio/
+video/
+
+# 忽略本地API密钥
+api-keys.yml
+secrets.yml
+
+# 忽略本地部署配置
+deploy.yml
+production.yml
+
+# 忽略本地监控文件
+monitoring/
+logs/
+
+# 忽略本地性能测试文件
+performance/
+benchmark/
+
+# 忽略本地A/B测试文件
+ab-testing/
+experiments/
+
+# 忽略本地用户数据
+user-data/
+analytics-data/
+
+# 忽略本地缓存文件
+cache/
+.cache/
+
+# 忽略本地临时文件
+temp/
+tmp/
+
+# 忽略本地构建工具配置
+webpack.config.js
+gulpfile.js
+gruntfile.js
+
+# 忽略本地包管理器文件
+composer.json
+composer.lock
+
+# 忽略本地Docker文件
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 忽略本地Kubernetes文件
+k8s/
+kubernetes/
+
+# 忽略本地CI/CD文件
+.github/workflows/local*
+.gitlab-ci.local.yml
+
+# 忽略本地环境文件
+.env*
+!.env.example
+
+# 忽略本地SSL证书
+*.pem
+*.key
+*.crt
+*.csr
+
+# 忽略本地数据文件
+data/
+database/
+
+# 忽略本地邮件模板
+email-templates/
+mail-templates/
+
+# 忽略本地搜索索引
+search-index/
+elasticsearch/
+
+# 忽略本地CDN文件
+cdn/
+static-assets/
+
+# 忽略本地国际化文件
+i18n/
+locales/
+translations/
+
+# 忽略本地测试覆盖率
+coverage/
+.coverage
+
+# 忽略本地性能分析
+profile/
+profiling/
+
+# 忽略本地安全扫描
+security/
+vulnerability/
+
+# 忽略本地文档生成
+docs-build/
+api-docs/
+
+# 忽略本地示例文件
+examples/
+samples/
+demo/
+
+# 忽略本地工具
+tools/
+utilities/
+helpers/
+
+# 忽略本地配置模板
+templates/
+boilerplate/
+
+# 忽略本地迁移文件
+migrations/
+upgrades/
+
+# 忽略本地种子数据
+seeds/
+fixtures/
+
+# 忽略本地Mock数据
+mocks/
+stubs/
+
+# 忽略本地集成测试
+integration/
+e2e/
+
+# 忽略本地单元测试
+unit/
+spec/
+
+# 忽略本地基准测试
+benchmarks/
+load-testing/
+
+# 忽略本地监控配置
+monitoring.yml
+logging.yml
+
+# 忽略本地备份脚本
+backup.sh
+restore.sh
+
+# 忽略本地部署脚本
+deploy.sh
+release.sh
+
+# 忽略本地维护脚本
+maintenance.sh
+cleanup.sh
+
+# 忽略本地健康检查
+health-check/
+status/
+
+# 忽略本地错误页面
+error-pages/
+404.local.html
+500.local.html
+
+# 忽略本地重定向配置
+redirects.yml
+url-mapping.yml
+
+# 忽略本地SEO配置
+seo.local.yml
+meta.local.yml
+
+# 忽略本地社交媒体配置
+social.local.yml
+sharing.local.yml
+
+# 忽略本地广告配置
+ads.local.yml
+monetization.local.yml
+
+# 忽略本地分析配置
+analytics.local.yml
+tracking.local.yml
+
+# 忽略本地评论配置
+comments.local.yml
+moderation.local.yml
+
+# 忽略本地搜索配置
+search.local.yml
+indexing.local.yml
+
+# 忽略本地缓存配置
+caching.local.yml
+cdn.local.yml
+
+# 忽略本地安全配置
+security.local.yml
+auth.local.yml
+
+# 忽略本地性能配置
+performance.local.yml
+optimization.local.yml
+
+# 忽略本地可访问性配置
+accessibility.local.yml
+a11y.local.yml
+
+# 忽略本地PWA配置
+pwa.local.yml
+manifest.local.json
+
+# 忽略本地AMP配置
+amp.local.yml
+
+# 忽略本地结构化数据
+schema.local.yml
+jsonld.local.yml
+
+# 忽略本地RSS配置
+rss.local.yml
+feed.local.yml
+
+# 忽略本地站点地图
+sitemap.local.xml
+robots.local.txt
+
+# 忽略本地多语言配置
+multilingual.local.yml
+i18n.local.yml
+
+# 忽略本地主题配置
+theme.local.yml
+colors.local.yml
+
+# 忽略本地字体配置
+fonts.local.yml
+typography.local.yml
+
+# 忽略本地布局配置
+layout.local.yml
+grid.local.yml
+
+# 忽略本地组件配置
+components.local.yml
+widgets.local.yml
+
+# 忽略本地菜单配置
+menu.local.yml
+navigation.local.yml
+
+# 忽略本地页脚配置
+footer.local.yml
+
+# 忽略本地侧边栏配置
+sidebar.local.yml
+
+# 忽略本地头部配置
+header.local.yml
+
+# 忽略本地面包屑配置
+breadcrumb.local.yml
+
+# 忽略本地分页配置
+pagination.local.yml
+
+# 忽略本地标签配置
+tags.local.yml
+categories.local.yml
+
+# 忽略本地归档配置
+archive.local.yml
+
+# 忽略本地相关文章配置
+related.local.yml
+
+# 忽略本地推荐配置
+recommendations.local.yml
+
+# 忽略本地热门配置
+popular.local.yml
+trending.local.yml
+
+# 忽略本地最新配置
+recent.local.yml
+latest.local.yml
+
+# 忽略本地特色配置
+featured.local.yml
+highlights.local.yml
+
+# 忽略本地置顶配置
+sticky.local.yml
+pinned.local.yml
+
+# 忽略本地草稿配置
+drafts.local.yml
+
+# 忽略本地预览配置
+preview.local.yml
+
+# 忽略本地发布配置
+publish.local.yml
+
+# 忽略本地调度配置
+schedule.local.yml
+
+# 忽略本地工作流配置
+workflow.local.yml
+
+# 忽略本地审核配置
+review.local.yml
+approval.local.yml
+
+# 忽略本地版本控制配置
+versioning.local.yml
+
+# 忽略本地回滚配置
+rollback.local.yml
+
+# 忽略本地同步配置
+sync.local.yml
+
+# 忽略本地导入配置
+import.local.yml
+
+# 忽略本地导出配置
+export.local.yml
+
+# 忽略本地迁移配置
+migration.local.yml
+
+# 忽略本地升级配置
+upgrade.local.yml
+
+# 忽略本地降级配置
+downgrade.local.yml
+
+# 忽略本地重置配置
+reset.local.yml
+
+# 忽略本地清理配置
+cleanup.local.yml
+
+# 忽略本地优化配置
+optimize.local.yml
+
+# 忽略本地压缩配置
+compress.local.yml
+
+# 忽略本地缩小配置
+minify.local.yml
+
+# 忽略本地打包配置
+bundle.local.yml
+
+# 忽略本地构建配置
+build.local.yml
+
+# 忽略本地测试配置
+test.local.yml
+
+# 忽略本地调试配置
+debug.local.yml
+
+# 忽略本地日志配置
+log.local.yml
+
+# 忽略本地错误配置
+error.local.yml
+
+# 忽略本地警告配置
+warning.local.yml
+
+# 忽略本地信息配置
+info.local.yml
+
+# 忽略本地详细配置
+verbose.local.yml
+
+# 忽略本地静默配置
+silent.local.yml
+
+# 忽略本地配置文件
+config.local.*
+
+# 忽略本地设置文件
+settings.local.*
+
+# 忽略本地选项文件
+options.local.*
+
+# 忽略本地参数文件
+params.local.*
+
+# 忽略本地变量文件
+vars.local.*
+variables.local.*
+
+# 忽略本地常量文件
+constants.local.*
+
+# 忽略本地默认文件
+defaults.local.*
+
+# 忽略本地自定义文件
+custom.local.*
+
+# 忽略本地个人文件
+personal.local.*
+
+# 忽略本地私有文件
+private.local.*
+
+# 忽略本地机密文件
+secret.local.*
+confidential.local.*
+
+# 忽略本地内部文件
+internal.local.*
+
+# 忽略本地临时文件
+temp.local.*
+tmp.local.*
+temporary.local.*
+
+# 忽略本地测试文件
+test.local.*
+testing.local.*
+
+# 忽略本地开发文件
+dev.local.*
+development.local.*
+
+# 忽略本地生产文件
+prod.local.*
+production.local.*
+
+# 忽略本地暂存文件
+staging.local.*
+
+# 忽略本地演示文件
+demo.local.*
+
+# 忽略本地示例文件
+example.local.*
+sample.local.*
+
+# 忽略本地模板文件
+template.local.*
+
+# 忽略本地原型文件
+prototype.local.*
+
+# 忽略本地草稿文件
+draft.local.*
+
+# 忽略本地备份文件
+backup.local.*
+
+# 忽略本地存档文件
+archive.local.*
+
+# 忽略本地历史文件
+history.local.*
+
+# 忽略本地旧文件
+old.local.*
+
+# 忽略本地新文件
+new.local.*
+
+# 忽略本地更新文件
+update.local.*
+
+# 忽略本地修改文件
+modified.local.*
+
+# 忽略本地更改文件
+changed.local.*
+
+# 忽略本地修复文件
+fix.local.*
+fixed.local.*
+
+# 忽略本地补丁文件
+patch.local.*
+
+# 忽略本地热修复文件
+hotfix.local.*
+
+# 忽略本地功能文件
+feature.local.*
+
+# 忽略本地增强文件
+enhancement.local.*
+
+# 忽略本地改进文件
+improvement.local.*
+
+# 忽略本地优化文件
+optimization.local.*
+
+# 忽略本地重构文件
+refactor.local.*
+refactoring.local.*
+
+# 忽略本地清理文件
+cleanup.local.*
+
+# 忽略本地维护文件
+maintenance.local.*
+
+# 忽略本地文档文件
+doc.local.*
+docs.local.*
+documentation.local.*
+
+# 忽略本地注释文件
+comment.local.*
+comments.local.*
+
+# 忽略本地注解文件
+annotation.local.*
+annotations.local.*
+
+# 忽略本地说明文件
+readme.local.*
+
+# 忽略本地许可文件
+license.local.*
+
+# 忽略本地版权文件
+copyright.local.*
+
+# 忽略本地作者文件
+author.local.*
+authors.local.*
+
+# 忽略本地贡献者文件
+contributor.local.*
+contributors.local.*
+
+# 忽略本地致谢文件
+acknowledgment.local.*
+acknowledgments.local.*
+
+# 忽略本地感谢文件
+thanks.local.*
+
+# 忽略本地学分文件
+credit.local.*
+credits.local.*
+
+# 忽略本地引用文件
+citation.local.*
+citations.local.*
+
+# 忽略本地参考文件
+reference.local.*
+references.local.*
+
+# 忽略本地链接文件
+link.local.*
+links.local.*
+
+# 忽略本地资源文件
+resource.local.*
+resources.local.*
+
+# 忽略本地资产文件
+asset.local.*
+assets.local.*
+
+# 忽略本地媒体文件
+media.local.*
+
+# 忽略本地图像文件
+image.local.*
+images.local.*
+
+# 忽略本地图片文件
+picture.local.*
+pictures.local.*
+
+# 忽略本地照片文件
+photo.local.*
+photos.local.*
+
+# 忽略本地图标文件
+icon.local.*
+icons.local.*
+
+# 忽略本地徽标文件
+logo.local.*
+logos.local.*
+
+# 忽略本地横幅文件
+banner.local.*
+banners.local.*
+
+# 忽略本地背景文件
+background.local.*
+backgrounds.local.*
+
+# 忽略本地纹理文件
+texture.local.*
+textures.local.*
+
+# 忽略本地图案文件
+pattern.local.*
+patterns.local.*
+
+# 忽略本地样式文件
+style.local.*
+styles.local.*
+
+# 忽略本地主题文件
+theme.local.*
+themes.local.*
+
+# 忽略本地皮肤文件
+skin.local.*
+skins.local.*
+
+# 忽略本地外观文件
+appearance.local.*
+
+# 忽略本地布局文件
+layout.local.*
+layouts.local.*
+
+# 忽略本地模板文件
+template.local.*
+templates.local.*
+
+# 忽略本地组件文件
+component.local.*
+components.local.*
+
+# 忽略本地模块文件
+module.local.*
+modules.local.*
+
+# 忽略本地插件文件
+plugin.local.*
+plugins.local.*
+
+# 忽略本地扩展文件
+extension.local.*
+extensions.local.*
+
+# 忽略本地附加文件
+addon.local.*
+addons.local.*
+
+# 忽略本地小部件文件
+widget.local.*
+widgets.local.*
+
+# 忽略本地工具文件
+tool.local.*
+tools.local.*
+
+# 忽略本地实用程序文件
+utility.local.*
+utilities.local.*
+
+# 忽略本地助手文件
+helper.local.*
+helpers.local.*
+
+# 忽略本地库文件
+library.local.*
+libraries.local.*
+
+# 忽略本地框架文件
+framework.local.*
+frameworks.local.*
+
+# 忽略本地SDK文件
+sdk.local.*
+
+# 忽略本地API文件
+api.local.*
+
+# 忽略本地服务文件
+service.local.*
+services.local.*
+
+# 忽略本地中间件文件
+middleware.local.*
+
+# 忽略本地控制器文件
+controller.local.*
+controllers.local.*
+
+# 忽略本地模型文件
+model.local.*
+models.local.*
+
+# 忽略本地视图文件
+view.local.*
+views.local.*
+
+# 忽略本地路由文件
+route.local.*
+routes.local.*
+
+# 忽略本地配置文件
+config.local.*
+configs.local.*
+
+# 忽略本地设置文件
+setting.local.*
+settings.local.*
+
+# 忽略本地环境文件
+environment.local.*
+environments.local.*
+
+# 忽略本地部署文件
+deployment.local.*
+deployments.local.*
+
+# 忽略本地基础设施文件
+infrastructure.local.*
+
+# 忽略本地容器文件
+container.local.*
+containers.local.*
+
+# 忽略本地编排文件
+orchestration.local.*
+
+# 忽略本地监控文件
+monitoring.local.*
+
+# 忽略本地日志文件
+logging.local.*
+
+# 忽略本地指标文件
+metrics.local.*
+
+# 忽略本地跟踪文件
+tracing.local.*
+
+# 忽略本地分析文件
+analytics.local.*
+
+# 忽略本地报告文件
+report.local.*
+reports.local.*
+
+# 忽略本地仪表板文件
+dashboard.local.*
+dashboards.local.*
+
+# 忽略本地图表文件
+chart.local.*
+charts.local.*
+
+# 忽略本地图形文件
+graph.local.*
+graphs.local.*
+
+# 忽略本地可视化文件
+visualization.local.*
+visualizations.local.*
+
+# 忽略本地数据文件
+data.local.*
+
+# 忽略本地数据库文件
+database.local.*
+databases.local.*
+
+# 忽略本地表文件
+table.local.*
+tables.local.*
+
+# 忽略本地集合文件
+collection.local.*
+collections.local.*
+
+# 忽略本地文档文件
+document.local.*
+documents.local.*
+
+# 忽略本地记录文件
+record.local.*
+records.local.*
+
+# 忽略本地条目文件
+entry.local.*
+entries.local.*
+
+# 忽略本地项目文件
+item.local.*
+items.local.*
+
+# 忽略本地对象文件
+object.local.*
+objects.local.*
+
+# 忽略本地实体文件
+entity.local.*
+entities.local.*
+
+# 忽略本地实例文件
+instance.local.*
+instances.local.*
+
+# 忽略本地类文件
+class.local.*
+classes.local.*
+
+# 忽略本地接口文件
+interface.local.*
+interfaces.local.*
+
+# 忽略本地类型文件
+type.local.*
+types.local.*
+
+# 忽略本地结构文件
+struct.local.*
+structs.local.*
+
+# 忽略本地枚举文件
+enum.local.*
+enums.local.*
+
+# 忽略本地常量文件
+constant.local.*
+constants.local.*
+
+# 忽略本地变量文件
+variable.local.*
+variables.local.*
+
+# 忽略本地参数文件
+parameter.local.*
+parameters.local.*
+
+# 忽略本地参数文件
+argument.local.*
+arguments.local.*
+
+# 忽略本地选项文件
+option.local.*
+options.local.*
+
+# 忽略本地标志文件
+flag.local.*
+flags.local.*
+
+# 忽略本地开关文件
+switch.local.*
+switches.local.*
+
+# 忽略本地切换文件
+toggle.local.*
+toggles.local.*
+
+# 忽略本地功能文件
+feature.local.*
+features.local.*
+
+# 忽略本地能力文件
+capability.local.*
+capabilities.local.*
+
+# 忽略本地权限文件
+permission.local.*
+permissions.local.*
+
+# 忽略本地角色文件
+role.local.*
+roles.local.*
+
+# 忽略本地用户文件
+user.local.*
+users.local.*
+
+# 忽略本地组文件
+group.local.*
+groups.local.*
+
+# 忽略本地团队文件
+team.local.*
+teams.local.*
+
+# 忽略本地组织文件
+organization.local.*
+organizations.local.*
+
+# 忽略本地公司文件
+company.local.*
+companies.local.*
+
+# 忽略本地部门文件
+department.local.*
+departments.local.*
+
+# 忽略本地项目文件
+project.local.*
+projects.local.*
+
+# 忽略本地应用文件
+application.local.*
+applications.local.*
+
+# 忽略本地系统文件
+system.local.*
+systems.local.*
+
+# 忽略本地平台文件
+platform.local.*
+platforms.local.*
+
+# 忽略本地环境文件
+environment.local.*
+environments.local.*
+
+# 忽略本地网络文件
+network.local.*
+networks.local.*
+
+# 忽略本地服务器文件
+server.local.*
+servers.local.*
+
+# 忽略本地客户端文件
+client.local.*
+clients.local.*
+
+# 忽略本地浏览器文件
+browser.local.*
+browsers.local.*
+
+# 忽略本地设备文件
+device.local.*
+devices.local.*
+
+# 忽略本地移动文件
+mobile.local.*
+
+# 忽略本地桌面文件
+desktop.local.*
+
+# 忽略本地Web文件
+web.local.*
+
+# 忽略本地API文件
+api.local.*
+apis.local.*
+
+# 忽略本地端点文件
+endpoint.local.*
+endpoints.local.*
+
+# 忽略本地URL文件
+url.local.*
+urls.local.*
+
+# 忽略本地URI文件
+uri.local.*
+uris.local.*
+
+# 忽略本地路径文件
+path.local.*
+paths.local.*
+
+# 忽略本地查询文件
+query.local.*
+queries.local.*
+
+# 忽略本地请求文件
+request.local.*
+requests.local.*
+
+# 忽略本地响应文件
+response.local.*
+responses.local.*
+
+# 忽略本地头部文件
+header.local.*
+headers.local.*
+
+# 忽略本地正文文件
+body.local.*
+bodies.local.*
+
+# 忽略本地负载文件
+payload.local.*
+payloads.local.*
+
+# 忽略本地数据文件
+data.local.*
+
+# 忽略本地内容文件
+content.local.*
+contents.local.*
+
+# 忽略本地消息文件
+message.local.*
+messages.local.*
+
+# 忽略本地通知文件
+notification.local.*
+notifications.local.*
+
+# 忽略本地警报文件
+alert.local.*
+alerts.local.*
+
+# 忽略本地事件文件
+event.local.*
+events.local.*
+
+# 忽略本地动作文件
+action.local.*
+actions.local.*
+
+# 忽略本地任务文件
+task.local.*
+tasks.local.*
+
+# 忽略本地作业文件
+job.local.*
+jobs.local.*
+
+# 忽略本地工作文件
+work.local.*
+works.local.*
+
+# 忽略本地流程文件
+process.local.*
+processes.local.*
+
+# 忽略本地程序文件
+program.local.*
+programs.local.*
+
+# 忽略本地脚本文件
+script.local.*
+scripts.local.*
+
+# 忽略本地命令文件
+command.local.*
+commands.local.*
+
+# 忽略本地指令文件
+instruction.local.*
+instructions.local.*
+
+# 忽略本地步骤文件
+step.local.*
+steps.local.*
+
+# 忽略本地阶段文件
+stage.local.*
+stages.local.*
+
+# 忽略本地阶段文件
+phase.local.*
+phases.local.*
+
+# 忽略本地级别文件
+level.local.*
+levels.local.*
+
+# 忽略本地层文件
+layer.local.*
+layers.local.*
+
+# 忽略本地堆栈文件
+stack.local.*
+stacks.local.*
+
+# 忽略本地队列文件
+queue.local.*
+queues.local.*
+
+# 忽略本地缓冲区文件
+buffer.local.*
+buffers.local.*
+
+# 忽略本地缓存文件
+cache.local.*
+caches.local.*
+
+# 忽略本地存储文件
+storage.local.*
+
+# 忽略本地内存文件
+memory.local.*
+
+# 忽略本地磁盘文件
+disk.local.*
+disks.local.*
+
+# 忽略本地文件系统文件
+filesystem.local.*
+filesystems.local.*
+
+# 忽略本地目录文件
+directory.local.*
+directories.local.*
+
+# 忽略本地文件夹文件
+folder.local.*
+folders.local.*
+
+# 忽略本地文件文件
+file.local.*
+files.local.*
+
+# 忽略本地路径文件
+path.local.*
+paths.local.*
+
+# 忽略本地位置文件
+location.local.*
+locations.local.*
+
+# 忽略本地地址文件
+address.local.*
+addresses.local.*
+
+# 忽略本地引用文件
+reference.local.*
+references.local.*
+
+# 忽略本地指针文件
+pointer.local.*
+pointers.local.*
+
+# 忽略本地链接文件
+link.local.*
+links.local.*
+
+# 忽略本地连接文件
+connection.local.*
+connections.local.*
+
+# 忽略本地关系文件
+relation.local.*
+relations.local.*
+
+# 忽略本地关联文件
+association.local.*
+associations.local.*
+
+# 忽略本地映射文件
+mapping.local.*
+mappings.local.*
+
+# 忽略本地绑定文件
+binding.local.*
+bindings.local.*
+
+# 忽略本地配对文件
+pairing.local.*
+pairings.local.*
+
+# 忽略本地匹配文件
+match.local.*
+matches.local.*
+
+# 忽略本地搜索文件
+search.local.*
+searches.local.*
+
+# 忽略本地查找文件
+find.local.*
+finds.local.*
+
+# 忽略本地定位文件
+locate.local.*
+locates.local.*
+
+# 忽略本地发现文件
+discover.local.*
+discovers.local.*
+
+# 忽略本地探索文件
+explore.local.*
+explores.local.*
+
+# 忽略本地浏览文件
+browse.local.*
+browses.local.*
+
+# 忽略本地导航文件
+navigate.local.*
+navigates.local.*
+
+# 忽略本地导航文件
+navigation.local.*
+navigations.local.*
+
+# 忽略本地菜单文件
+menu.local.*
+menus.local.*
+
+# 忽略本地工具栏文件
+toolbar.local.*
+toolbars.local.*
+
+# 忽略本地状态栏文件
+statusbar.local.*
+statusbars.local.*
+
+# 忽略本地侧边栏文件
+sidebar.local.*
+sidebars.local.*
+
+# 忽略本地页脚文件
+footer.local.*
+footers.local.*
+
+# 忽略本地页眉文件
+header.local.*
+headers.local.*
+
+# 忽略本地标题文件
+title.local.*
+titles.local.*
+
+# 忽略本地标题文件
+heading.local.*
+headings.local.*
+
+# 忽略本地副标题文件
+subtitle.local.*
+subtitles.local.*
+
+# 忽略本地副标题文件
+subheading.local.*
+subheadings.local.*
+
+# 忽略本地标签文件
+label.local.*
+labels.local.*
+
+# 忽略本地标记文件
+tag.local.*
+tags.local.*
+
+# 忽略本地类别文件
+category.local.*
+categories.local.*
+
+# 忽略本地分类文件
+classification.local.*
+classifications.local.*
+
+# 忽略本地分组文件
+grouping.local.*
+groupings.local.*
+
+# 忽略本地排序文件
+sorting.local.*
+sortings.local.*
+
+# 忽略本地过滤文件
+filtering.local.*
+filterings.local.*
+
+# 忽略本地筛选文件
+filter.local.*
+filters.local.*
+
+# 忽略本地排序文件
+sort.local.*
+sorts.local.*
+
+# 忽略本地顺序文件
+order.local.*
+orders.local.*
+
+# 忽略本地序列文件
+sequence.local.*
+sequences.local.*
+
+# 忽略本地系列文件
+series.local.*
+
+# 忽略本地集合文件
+set.local.*
+sets.local.*
+
+# 忽略本地列表文件
+list.local.*
+lists.local.*
+
+# 忽略本地数组文件
+array.local.*
+arrays.local.*
+
+# 忽略本地向量文件
+vector.local.*
+vectors.local.*
+
+# 忽略本地矩阵文件
+matrix.local.*
+matrices.local.*
+
+# 忽略本地表格文件
+table.local.*
+tables.local.*
+
+# 忽略本地网格文件
+grid.local.*
+grids.local.*
+
+# 忽略本地图表文件
+chart.local.*
+charts.local.*
+
+# 忽略本地图形文件
+graph.local.*
+graphs.local.*
+
+# 忽略本地图像文件
+image.local.*
+images.local.*
+
+# 忽略本地图片文件
+picture.local.*
+pictures.local.*
+
+# 忽略本地照片文件
+photo.local.*
+photos.local.*
+
+# 忽略本地插图文件
+illustration.local.*
+illustrations.local.*
+
+# 忽略本地图标文件
+icon.local.*
+icons.local.*
+
+# 忽略本地符号文件
+symbol.local.*
+symbols.local.*
+
+# 忽略本地标志文件
+sign.local.*
+signs.local.*
+
+# 忽略本地徽章文件
+badge.local.*
+badges.local.*
+
+# 忽略本地徽标文件
+logo.local.*
+logos.local.*
+
+# 忽略本地品牌文件
+brand.local.*
+brands.local.*
+
+# 忽略本地身份文件
+identity.local.*
+identities.local.*
+
+# 忽略本地外观文件
+appearance.local.*
+appearances.local.*
+
+# 忽略本地风格文件
+style.local.*
+styles.local.*
+
+# 忽略本地主题文件
+theme.local.*
+themes.local.*
+
+# 忽略本地皮肤文件
+skin.local.*
+skins.local.*
+
+# 忽略本地外观文件
+look.local.*
+looks.local.*
+
+# 忽略本地感觉文件
+feel.local.*
+feels.local.*
+
+# 忽略本地体验文件
+experience.local.*
+experiences.local.*
+
+# 忽略本地界面文件
+interface.local.*
+interfaces.local.*
+
+# 忽略本地用户界面文件
+ui.local.*
+uis.local.*
+
+# 忽略本地用户体验文件
+ux.local.*
+uxs.local.*
+
+# 忽略本地交互文件
+interaction.local.*
+interactions.local.*
+
+# 忽略本地行为文件
+behavior.local.*
+behaviors.local.*
+
+# 忽略本地动作文件
+action.local.*
+actions.local.*
+
+# 忽略本地反应文件
+reaction.local.*
+reactions.local.*
+
+# 忽略本地响应文件
+response.local.*
+responses.local.*
+
+# 忽略本地反馈文件
+feedback.local.*
+feedbacks.local.*
+
+# 忽略本地输入文件
+input.local.*
+inputs.local.*
+
+# 忽略本地输出文件
+output.local.*
+outputs.local.*
+
+# 忽略本地结果文件
+result.local.*
+results.local.*
+
+# 忽略本地结果文件
+outcome.local.*
+outcomes.local.*
+
+# 忽略本地效果文件
+effect.local.*
+effects.local.*
+
+# 忽略本地影响文件
+impact.local.*
+impacts.local.*
+
+# 忽略本地后果文件
+consequence.local.*
+consequences.local.*
+
+# 忽略本地结论文件
+conclusion.local.*
+conclusions.local.*
+
+# 忽略本地总结文件
+summary.local.*
+summaries.local.*
+
+# 忽略本地摘要文件
+abstract.local.*
+abstracts.local.*
+
+# 忽略本地概述文件
+overview.local.*
+overviews.local.*
+
+# 忽略本地介绍文件
+introduction.local.*
+introductions.local.*
+
+# 忽略本地前言文件
+preface.local.*
+prefaces.local.*
+
+# 忽略本地序言文件
+foreword.local.*
+forewords.local.*
+
+# 忽略本地序文件
+prelude.local.*
+preludes.local.*
+
+# 忽略本地开场文件
+opening.local.*
+openings.local.*
+
+# 忽略本地开始文件
+beginning.local.*
+beginnings.local.*
+
+# 忽略本地开头文件
+start.local.*
+starts.local.*
+
+# 忽略本地启动文件
+startup.local.*
+startups.local.*
+
+# 忽略本地初始化文件
+initialization.local.*
+initializations.local.*
+
+# 忽略本地初始文件
+initial.local.*
+initials.local.*
+
+# 忽略本地原始文件
+original.local.*
+originals.local.*
+
+# 忽略本地源文件
+source.local.*
+sources.local.*
+
+# 忽略本地起源文件
+origin.local.*
+origins.local.*
+
+# 忽略本地根文件
+root.local.*
+roots.local.*
+
+# 忽略本地基础文件
+base.local.*
+bases.local.*
+
+# 忽略本地基本文件
+basic.local.*
+basics.local.*
+
+# 忽略本地基础文件
+foundation.local.*
+foundations.local.*
+
+# 忽略本地基石文件
+cornerstone.local.*
+cornerstones.local.*
+
+# 忽略本地核心文件
+core.local.*
+cores.local.*
+
+# 忽略本地中心文件
+center.local.*
+centers.local.*
+
+# 忽略本地中央文件
+central.local.*
+centrals.local.*
+
+# 忽略本地主要文件
+main.local.*
+mains.local.*
+
+# 忽略本地主文件
+primary.local.*
+primaries.local.*
+
+# 忽略本地首要文件
+principal.local.*
+principals.local.*
+
+# 忽略本地关键文件
+key.local.*
+keys.local.*
+
+# 忽略本地重要文件
+important.local.*
+importants.local.*
+
+# 忽略本地关键文件
+critical.local.*
+criticals.local.*
+
+# 忽略本地必要文件
+essential.local.*
+essentials.local.*
+
+# 忽略本地必需文件
+required.local.*
+requireds.local.*
+
+# 忽略本地强制文件
+mandatory.local.*
+mandatories.local.*
+
+# 忽略本地义务文件
+compulsory.local.*
+compulsories.local.*
+
+# 忽略本地必须文件
+must.local.*
+musts.local.*
+
+# 忽略本地需要文件
+need.local.*
+needs.local.*
+
+# 忽略本地想要文件
+want.local.*
+wants.local.*
+
+# 忽略本地希望文件
+wish.local.*
+wishes.local.*
+
+# 忽略本地期望文件
+expect.local.*
+expects.local.*
+
+# 忽略本地期待文件
+expectation.local.*
+expectations.local.*
+
+# 忽略本地要求文件
+requirement.local.*
+requirements.local.*
+
+# 忽略本地规范文件
+specification.local.*
+specifications.local.*
+
+# 忽略本地标准文件
+standard.local.*
+standards.local.*
+
+# 忽略本地准则文件
+guideline.local.*
+guidelines.local.*
+
+# 忽略本地指南文件
+guide.local.*
+guides.local.*
+
+# 忽略本地手册文件
+manual.local.*
+manuals.local.*
+
+# 忽略本地教程文件
+tutorial.local.*
+tutorials.local.*
+
+# 忽略本地课程文件
+lesson.local.*
+lessons.local.*
+
+# 忽略本地学习文件
+learning.local.*
+learnings.local.*
+
+# 忽略本地培训文件
+training.local.*
+trainings.local.*
+
+# 忽略本地教育文件
+education.local.*
+educations.local.*
+
+# 忽略本地教学文件
+teaching.local.*
+teachings.local.*
+
+# 忽略本地指导文件
+instruction.local.*
+instructions.local.*
+
+# 忽略本地指导文件
+guidance.local.*
+guidances.local.*
+
+# 忽略本地建议文件
+advice.local.*
+advices.local.*
+
+# 忽略本地建议文件
+suggestion.local.*
+suggestions.local.*
+
+# 忽略本地推荐文件
+recommendation.local.*
+recommendations.local.*
+
+# 忽略本地提示文件
+tip.local.*
+tips.local.*
+
+# 忽略本地提示文件
+hint.local.*
+hints.local.*
+
+# 忽略本地线索文件
+clue.local.*
+clues.local.*
+
+# 忽略本地帮助文件
+help.local.*
+helps.local.*
+
+# 忽略本地支持文件
+support.local.*
+supports.local.*
+
+# 忽略本地援助文件
+assistance.local.*
+assistances.local.*
+
+# 忽略本地协助文件
+aid.local.*
+aids.local.*
+
+# 忽略本地服务文件
+service.local.*
+services.local.*
+
+# 忽略本地解决方案文件
+solution.local.*
+solutions.local.*
+
+# 忽略本地答案文件
+answer.local.*
+answers.local.*
+
+# 忽略本地回复文件
+reply.local.*
+replies.local.*
+
+# 忽略本地响应文件
+response.local.*
+responses.local.*
+
+# 忽略本地反馈文件
+feedback.local.*
+feedbacks.local.*
+
+# 忽略本地评论文件
+comment.local.*
+comments.local.*
+
+# 忽略本地评价文件
+evaluation.local.*
+evaluations.local.*
+
+# 忽略本地评估文件
+assessment.local.*
+assessments.local.*
+
+# 忽略本地审查文件
+review.local.*
+reviews.local.*
+
+# 忽略本地检查文件
+check.local.*
+checks.local.*
+
+# 忽略本地验证文件
+verification.local.*
+verifications.local.*
+
+# 忽略本地确认文件
+confirmation.local.*
+confirmations.local.*
+
+# 忽略本地验证文件
+validation.local.*
+validations.local.*
+
+# 忽略本地测试文件
+test.local.*
+tests.local.*
+
+# 忽略本地试验文件
+trial.local.*
+trials.local.*
+
+# 忽略本地实验文件
+experiment.local.*
+experiments.local.*
+
+# 忽略本地演示文件
+demo.local.*
+demos.local.*
+
+# 忽略本地演示文件
+demonstration.local.*
+demonstrations.local.*
+
+# 忽略本地展示文件
+show.local.*
+shows.local.*
+
+# 忽略本地显示文件
+display.local.*
+displays.local.*
+
+# 忽略本地呈现文件
+presentation.local.*
+presentations.local.*
+
+# 忽略本地表现文件
+performance.local.*
+performances.local.*
+
+# 忽略本地执行文件
+execution.local.*
+executions.local.*
+
+# 忽略本地运行文件
+run.local.*
+runs.local.*
+
+# 忽略本地操作文件
+operation.local.*
+operations.local.*
+
+# 忽略本地功能文件
+function.local.*
+functions.local.*
+
+# 忽略本地方法文件
+method.local.*
+methods.local.*
+
+# 忽略本地程序文件
+procedure.local.*
+procedures.local.*
+
+# 忽略本地过程文件
+process.local.*
+processes.local.*
+
+# 忽略本地步骤文件
+step.local.*
+steps.local.*
+
+# 忽略本地阶段文件
+stage.local.*
+stages.local.*
+
+# 忽略本地阶段文件
+phase.local.*
+phases.local.*
+
+# 忽略本地周期文件
+cycle.local.*
+cycles.local.*
+
+# 忽略本地循环文件
+loop.local.*
+loops.local.*
+
+# 忽略本地迭代文件
+iteration.local.*
+iterations.local.*
+
+# 忽略本地重复文件
+repetition.local.*
+repetitions.local.*
+
+# 忽略本地重复文件
+repeat.local.*
+repeats.local.*
+
+# 忽略本地重做文件
+redo.local.*
+redos.local.*
+
+# 忽略本地重试文件
+retry.local.*
+retries.local.*
+
+# 忽略本地重新文件
+re.local.*
+res.local.*
+
+# 忽略本地再次文件
+again.local.*
+agains.local.*
+
+# 忽略本地另一个文件
+another.local.*
+anothers.local.*
+
+# 忽略本地其他文件
+other.local.*
+others.local.*
+
+# 忽略本地额外文件
+extra.local.*
+extras.local.*
+
+# 忽略本地附加文件
+additional.local.*
+additionals.local.*
+
+# 忽略本地补充文件
+supplement.local.*
+supplements.local.*
+
+# 忽略本地补充文件
+supplementary.local.*
+supplementaries.local.*
+
+# 忽略本地附录文件
+appendix.local.*
+appendices.local.*
+
+# 忽略本地附件文件
+attachment.local.*
+attachments.local.*
+
+# 忽略本地附加文件
+addendum.local.*
+addenda.local.*
+
+# 忽略本地增补文件
+addition.local.*
+additions.local.*
+
+# 忽略本地扩展文件
+extension.local.*
+extensions.local.*
+
+# 忽略本地扩展文件
+expansion.local.*
+expansions.local.*
+
+# 忽略本地增强文件
+enhancement.local.*
+enhancements.local.*
+
+# 忽略本地改进文件
+improvement.local.*
+improvements.local.*
+
+# 忽略本地升级文件
+upgrade.local.*
+upgrades.local.*
+
+# 忽略本地更新文件
+update.local.*
+updates.local.*
+
+# 忽略本地修改文件
+modification.local.*
+modifications.local.*
+
+# 忽略本地更改文件
+change.local.*
+changes.local.*

@@ -1,0 +1,57 @@
+# Jekyll配置文件
+title: "道德经 - 老子智慧经典"
+description: "《道德经》全文八十一章，包含原文、拼音标注和详细释义"
+baseurl: ""
+url: "https://liberalchang.github.io"
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - prompt.md
+  - step1.md
+  - tmp.txt
+
+# 默认设置
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+
+# 导航菜单
+header_pages:
+  - index.md
+  - about.md
+
+# 社交链接
+github_username: liberalchang
+
+# 评论系统（可选）
+# disqus:
+#   shortname: your-disqus-shortname
+
+# Google Analytics（可选）
+# google_analytics: UA-XXXXXXXX-X

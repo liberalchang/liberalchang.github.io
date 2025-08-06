@@ -1,0 +1,403 @@
+/* 响应式布局专用样式 */
+
+/* 移动端优先的响应式设计 */
+
+/* 基础移动端样式 (320px+) */
+@media screen and (min-width: 320px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .chapter-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* 小屏幕手机 (480px+) */
+@media screen and (min-width: 480px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+  
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .chapter-card {
+    padding: 1.5rem;
+  }
+}
+
+/* 大屏幕手机/小平板 (768px+) */
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+  
+  .chapter-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  main {
+    grid-template-columns: 1fr 280px;
+  }
+  
+  .header-content {
+    flex-direction: row;
+  }
+  
+  nav ul {
+    gap: 2rem;
+  }
+}
+
+/* 平板 (1024px+) */
+@media screen and (min-width: 1024px) {
+  .chapter-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  main {
+    grid-template-columns: 1fr 320px;
+  }
+  
+  .chapter-page {
+    max-width: 800px;
+  }
+}
+
+/* 桌面端 (1200px+) */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  
+  .chapter-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .chapter-page {
+    max-width: 900px;
+  }
+}
+
+/* 大屏幕桌面 (1440px+) */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+  
+  .chapter-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* 超大屏幕 (1920px+) */
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1600px;
+  }
+  
+  .chapter-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* 移动端特定样式 */
+@media screen and (max-width: 767px) {
+  /* 隐藏桌面端侧边栏 */
+  .sidebar {
+    display: none;
+  }
+  
+  /* 主内容区域全宽 */
+  main {
+    grid-template-columns: 1fr;
+    padding: 1rem 0;
+  }
+  
+  /* 移动端导航 */
+  .header-content {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* 章节导航垂直布局 */
+  .chapter-navigation {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav-button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  /* 阅读工具移动端布局 */
+  .reading-tools {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 0.5rem;
+  }
+  
+  .tool-button {
+    width: 45px;
+    height: 45px;
+  }
+  
+  /* 移动端字体调整 */
+  .chapter-main-title {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+  
+  .original-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .interpretation-content {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  
+  /* 移动端间距调整 */
+  .chapter-title-section {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .original-text-box,
+  .interpretation-box {
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+}
+
+/* 平板端特定样式 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sidebar {
+    position: static;
+    margin-top: 2rem;
+  }
+  
+  main {
+    grid-template-columns: 1fr;
+  }
+  
+  .chapter-page {
+    max-width: 700px;
+  }
+}
+
+/* 触摸设备优化 */
+@media (hover: none) and (pointer: coarse) {
+  /* 增大触摸目标 */
+  .nav-button,
+  .tool-button,
+  .chapter-card {
+    min-height: 44px;
+  }
+  
+  /* 移除悬停效果 */
+  .chapter-card:hover,
+  .nav-button:hover,
+  .tool-button:hover {
+    transform: none;
+  }
+  
+  /* 添加触摸反馈 */
+  .chapter-card:active,
+  .nav-button:active,
+  .tool-button:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+  }
+}
+
+/* 高分辨率屏幕优化 */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .chapter-card,
+  .original-text-box,
+  .interpretation-box {
+    border-radius: 12px;
+  }
+  
+  .nav-button,
+  .tool-button {
+    border-radius: 8px;
+  }
+}
+
+/* 横屏模式优化 */
+@media screen and (orientation: landscape) and (max-height: 600px) {
+  .chapter-title-section {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .chapter-main-title {
+    font-size: 1.8rem;
+  }
+  
+  .original-text-box,
+  .interpretation-box {
+    padding: 1.5rem;
+  }
+}
+
+/* 可访问性优化 */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .chapter-card:hover,
+  .nav-button:hover,
+  .tool-button:hover {
+    transform: none;
+  }
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+  .chapter-card {
+    border: 2px solid #000;
+  }
+  
+  .original-text-box {
+    border: 2px solid #667eea;
+  }
+  
+  .interpretation-box {
+    border: 2px solid #ccc;
+  }
+}
+
+/* 打印样式 */
+@media print {
+  /* 隐藏交互元素 */
+  .sidebar,
+  .chapter-navigation,
+  .reading-tools,
+  .back-to-top,
+  header nav,
+  footer {
+    display: none !important;
+  }
+  
+  /* 优化打印布局 */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+  
+  main {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  
+  .content {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .chapter-page {
+    max-width: none;
+    padding: 0;
+  }
+  
+  .chapter-title-section {
+    background: none !important;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+  
+  .original-text-box,
+  .interpretation-box {
+    background: none !important;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+    margin: 1rem 0;
+  }
+  
+  .chapter-main-title {
+    color: black !important;
+    font-size: 18pt;
+  }
+  
+  .original-text {
+    font-size: 14pt;
+    color: black !important;
+  }
+  
+  .interpretation-content {
+    font-size: 12pt;
+    color: black !important;
+  }
+  
+  /* 分页控制 */
+  .chapter-title-section {
+    page-break-after: avoid;
+  }
+  
+  .original-text-box {
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+  
+  .interpretation-box {
+    page-break-before: avoid;
+  }
+}
+
+/* 容器查询支持 (未来特性) */
+@supports (container-type: inline-size) {
+  .chapter-grid {
+    container-type: inline-size;
+  }
+  
+  @container (min-width: 600px) {
+    .chapter-card {
+      padding: 2rem;
+    }
+  }
+  
+  @container (min-width: 900px) {
+    .chapter-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

@@ -1,0 +1,398 @@
+/* 章节阅读专用样式 */
+
+/* 章节页面特定样式 */
+.chapter-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* 章节标题区域 */
+.chapter-title-section {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-radius: 15px;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+.chapter-number {
+  font-size: 1rem;
+  color: #667eea;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.chapter-main-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.2;
+}
+
+/* 原文区域 */
+.original-section {
+  margin: 3rem 0;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-title::before {
+  content: '';
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+}
+
+.original-text-box {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 15px;
+  padding: 2.5rem;
+  margin: 1.5rem 0;
+  border-left: 5px solid #667eea;
+  position: relative;
+  overflow: hidden;
+}
+
+.original-text-box::before {
+  content: '"';
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 4rem;
+  color: rgba(102, 126, 234, 0.2);
+  font-family: serif;
+}
+
+.original-text {
+  font-size: 1.4rem;
+  line-height: 2.2;
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.pinyin-text {
+  color: #666;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* 释义区域 */
+.interpretation-section {
+  margin: 3rem 0;
+}
+
+.interpretation-box {
+  background: white;
+  border-radius: 15px;
+  padding: 2.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  line-height: 1.9;
+}
+
+.interpretation-content {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.interpretation-content p {
+  margin-bottom: 1.5rem;
+}
+
+.interpretation-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* 章节导航增强 */
+.chapter-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.nav-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 120px;
+  justify-content: center;
+}
+
+.nav-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+}
+
+.nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.nav-button.prev::before {
+  content: '←';
+}
+
+.nav-button.next::after {
+  content: '→';
+}
+
+.home-button {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  padding: 1rem 1.5rem;
+}
+
+.home-button:hover {
+  box-shadow: 0 10px 25px rgba(40, 167, 69, 0.4);
+}
+
+/* 阅读辅助功能 */
+.reading-tools {
+  position: fixed;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 100;
+}
+
+.tool-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.tool-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* 字体大小控制 */
+.font-size-small .original-text {
+  font-size: 1.2rem;
+}
+
+.font-size-large .original-text {
+  font-size: 1.6rem;
+}
+
+.font-size-small .interpretation-content {
+  font-size: 1rem;
+}
+
+.font-size-large .interpretation-content {
+  font-size: 1.2rem;
+}
+
+/* 夜间模式 */
+.dark-mode {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e0e0e0;
+}
+
+.dark-mode .chapter-title-section {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+.dark-mode .chapter-main-title {
+  color: #e0e0e0;
+}
+
+.dark-mode .section-title {
+  color: #e0e0e0;
+}
+
+.dark-mode .original-text-box {
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+  border-left-color: #667eea;
+}
+
+.dark-mode .original-text {
+  color: #e0e0e0;
+}
+
+.dark-mode .interpretation-box {
+  background: #2d3748;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .interpretation-content {
+  color: #cbd5e0;
+}
+
+.dark-mode .chapter-navigation {
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .chapter-page {
+    padding: 1rem;
+  }
+  
+  .chapter-main-title {
+    font-size: 2rem;
+  }
+  
+  .original-text {
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+  
+  .original-text-box,
+  .interpretation-box {
+    padding: 1.5rem;
+  }
+  
+  .chapter-navigation {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav-button {
+    width: 100%;
+    min-width: auto;
+  }
+  
+  .reading-tools {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .chapter-title-section {
+    padding: 1.5rem;
+  }
+  
+  .chapter-main-title {
+    font-size: 1.8rem;
+  }
+  
+  .original-text {
+    font-size: 1.1rem;
+  }
+  
+  .interpretation-content {
+    font-size: 1rem;
+  }
+  
+  .tool-button {
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+  }
+}
+
+/* 打印样式 */
+@media print {
+  .chapter-navigation,
+  .reading-tools {
+    display: none;
+  }
+  
+  .chapter-page {
+    max-width: none;
+    padding: 0;
+  }
+  
+  .original-text-box,
+  .interpretation-box {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    break-inside: avoid;
+  }
+  
+  .chapter-title-section {
+    background: none;
+    border: 1px solid #ddd;
+  }
+}
+
+/* 动画效果 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chapter-title-section,
+.original-text-box,
+.interpretation-box {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.original-text-box {
+  animation-delay: 0.1s;
+}
+
+.interpretation-box {
+  animation-delay: 0.2s;
+}
+
+.chapter-navigation {
+  animation: fadeInUp 0.6s ease-out 0.3s both;
+}
